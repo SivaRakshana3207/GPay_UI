@@ -232,14 +232,29 @@
   .table {
     display: table;
   }
+  .h-11 {
+    height: calc(var(--spacing) * 11);
+  }
   .h-12 {
     height: calc(var(--spacing) * 12);
+  }
+  .h-full {
+    height: 100%;
+  }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
+  .w-11 {
+    width: calc(var(--spacing) * 11);
   }
   .w-12 {
     width: calc(var(--spacing) * 12);
   }
   .w-\[300px\] {
     width: 300px;
+  }
+  .w-full {
+    width: 100%;
   }
   .max-w-md {
     max-width: var(--container-md);
